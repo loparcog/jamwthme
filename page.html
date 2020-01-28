@@ -1,0 +1,103 @@
+<title>jam w. me</title>
+
+<head>
+<style>
+
+	body
+	{ 
+	/*background: rgb(214,94,214);
+	background: -moz-linear-gradient(65deg, rgba(214,94,214,1) 0%, rgba(34,65,222,1) 100%);
+	background: -webkit-linear-gradient(65deg, rgba(214,94,214,1) 0%, rgba(34,65,222,1) 100%);
+	background: linear-gradient(65deg, rgba(214,94,214,1) 0%, rgba(34,65,222,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d65ed6",endColorstr="#2241de",GradientType=1);  
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+	min-width: 100%;
+	min-height: 100%;
+	overflow:hidden;
+	height:100%;
+	margin:0;
+
+      animation: colorchange 50s infinite; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+      -webkit-animation: colorchange 50s infinite; /* Chrome and Safari */
+	}
+
+    @keyframes colorchange
+    {
+      0%   {background: #20115b}
+      25%  {background: #7232f2;}
+      50%  {background: #c876ff;}
+      75%  {background: #7232f2;}
+      100% {background: #20115b;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: red;}
+      25%  {background: yellow;}
+      50%  {background: blue;}
+      75%  {background: green;}
+      100% {background: red;}
+    }
+	
+
+	#header
+	{
+		padding: 60px;
+		text-align: center;
+		color: white;
+		font-size: 60px;
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+	}
+
+	#mainmenu
+	{
+		text-align: center;
+	}
+
+	.mainbtn
+	{
+		font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+		background-color: white;
+		border: none;
+		padding: 15px 32px;
+		text-align: center;
+		display: inline-block;
+		font-size: 16px;
+		border-radius: 10px;
+		/* For hover transition */
+		-webkit-transition-duration: 0.0s; /* Safari */
+  		transition-duration: 0.0s;
+		width: 100px;
+		box-shadow: 0 9px grey;
+	}
+
+	.mainbtn:hover {
+		background-color: lightgray;
+	}	
+
+	.mainbtn:active {
+		
+		background-color: lightgray;
+		box-shadow: 0 5px rgb(75, 74, 74);
+		transform: translateY(4px);
+	}
+
+</style>
+</head>
+
+<body>
+	<div id="header">
+		<h1>jam w. me</h1>
+	</div>
+
+	<div id="mainmenu">
+		<button id="btnstart" class="mainbtn">Start</button>
+		<button id="btnabout" class="mainbtn">About</button>
+	</div>
+</body>
