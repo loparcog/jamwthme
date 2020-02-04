@@ -1,7 +1,7 @@
 {
-  "name": "jamw.me",
+  "name": "jamwth.me",
   "version": "1.0.0",
-  "description": "audio processing site",
+  "description": "group audio processing/creation site",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
